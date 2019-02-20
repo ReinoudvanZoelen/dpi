@@ -5,7 +5,8 @@ import interfaces.IMessageConsumer;
 public class MessageConsumerConsole implements IMessageConsumer {
 
     @Override
-    public void ConsumeMessage(String message) {
-        System.out.println(message);
+    public void ConsumeMessage(MessageAction action, String message) {
+        System.out.println("[" + action.name() + "] " + message);
     }
 }
+

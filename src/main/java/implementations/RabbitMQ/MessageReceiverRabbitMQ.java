@@ -4,6 +4,7 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
+import implementations.MessageConsumerImplementations.MessageAction;
 import interfaces.IMessageConsumer;
 import interfaces.IMessageReceiver;
 
@@ -11,40 +12,39 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 public class MessageReceiverRabbitMQ implements IMessageReceiver {
-    private final String queueName;
+    private final String exchangeName;
 
     private IMessageConsumer messageConsumer;
 
     private Connection connection;
     private Channel channel;
 
-    public MessageReceiverRabbitMQ(String queueName, IMessageConsumer messageConsumer) {
-        this.queueName = queueName;
+    public MessageReceiverRabbitMQ(String exchangeName, IMessageConsumer messageConsumer) {
+        this.exchangeName = exchangeName;
         this.messageConsumer = messageConsumer;
 
         this.connectMessagingService();
     }
 
     private void connectMessagingService() {
-        ConnectionFactory factory = new ConnectionFactory();
-        factory.setHost("localhost");
-        Connection connection = null;
         try {
-            connection = factory.newConnection();
-            Channel channel = connection.createChannel();
+            ConnectionFactory factory = new ConnectionFactory();
+            factory.setHost("localhost");
+            this.connection = factory.newConnection();
+            this.channel = connection.createChannel();
 
-            channel.queueDeclare(queueName, false, false, false, null);
+            channel.exchangeDeclare(exchangeName, "fanout");
+            String queueName = channel.queueDeclare().getQueue();
+            channel.queueBind(queueName, exchangeName, "");
 
-
-            this.consumeMessage(" [*] Waiting for messages. To exit press CTRL+C");
+            consumeMessage("Waiting for messages. To exit press CTRL+C");
 
             DeliverCallback deliverCallback = (consumerTag, delivery) -> {
                 String message = new String(delivery.getBody(), "UTF-8");
-                this.consumeMessage(" [M] Received message: " + message);
+                this.consumeMessage(message);
             };
             channel.basicConsume(queueName, true, deliverCallback, consumerTag -> {
             });
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (TimeoutException e) {
@@ -53,7 +53,7 @@ public class MessageReceiverRabbitMQ implements IMessageReceiver {
     }
 
     private void consumeMessage(String message) {
-        this.messageConsumer.ConsumeMessage(message);
+        this.messageConsumer.ConsumeMessage(MessageAction.RECEIVE, message);
     }
 
     public void Disconnect() {
