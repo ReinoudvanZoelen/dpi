@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acf9895b-2736-4268-8bd6-66da5723fa42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BankMessengers/MMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BankMessengers/MyMessenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BankMessengers/RaboMessenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BankMessengers/UserMessenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implementations/MessageConsumerImplementations/MessageAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/ITextProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/TextFlipper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RaboStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserStarter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Receiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/implementations/MessageConsumerImplementations/MessageConsumerConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementations/MessageConsumerImplementations/MessageConsumerConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/implementations/RabbitMQ/MessageReceiverRabbitMQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementations/RabbitMQ/MessageReceiverRabbitMQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/implementations/RabbitMQ/MessageSenderRabbitMQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/implementations/RabbitMQ/MessageSenderRabbitMQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/IMessageConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/IMessageConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Receiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/implementations/MessageConsumerImplementations/MessageConsumerConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/implementations/MessageConsumerImplementations/MessageConsumerConsole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/implementations/RabbitMQ/MessageReceiverRabbitMQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/implementations/RabbitMQ/MessageReceiverRabbitMQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankMessengers/MMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankMessengers/MessengerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankMessengers/MyMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankMessengers/MyMessenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankMessengers/RaboMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankMessengers/RaboMessenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankMessengers/UserMessenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankMessengers/UserMessenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/TextFlipper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BankMessengers/MMP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BankMessengers/MyMessenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BankMessengers/MyMessenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BankMessengers/RaboMessenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BankMessengers/RaboMessenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BankMessengers/UserMessenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BankMessengers/UserMessenger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/implementations/RabbitMQ/MessageSenderRabbitMQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/implementations/RabbitMQ/MessageSenderRabbitMQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interfaces/IMessageConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interfaces/IMessageConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/models/TextFlipper.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/implementations/RabbitMQ/MessageSenderRabbitMQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="44" column="75" selection-start-line="44" selection-start-column="75" selection-end-line="44" selection-end-column="75" />
+            <state relative-caret-position="221">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,29 +56,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BankMessengers/MyMessenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="221">
+              <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implementations/MessageConsumerImplementations/MessageConsumerConsole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IMessageConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -104,11 +77,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BankMessengers/RaboMessenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
               <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,21 +90,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BankMessengers/UserMessenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BankMessengers/MMP.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RaboStarter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UserStarter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,15 +179,18 @@
         <option value="$PROJECT_DIR$/src/main/java/MyMessenger.java" />
         <option value="$PROJECT_DIR$/src/main/java/BankMessengers/MyMessengerParameters.java" />
         <option value="$PROJECT_DIR$/src/main/java/BankMessengers/MMP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BankMessengers/RaboMessenger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BankMessengers/UserMessenger.java" />
         <option value="$PROJECT_DIR$/src/main/java/interfaces/IMessageConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/implementations/MessageConsumerImplementations/MessageAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/implementations/MessageConsumerImplementations/MessageConsumerConsole.java" />
         <option value="$PROJECT_DIR$/src/main/java/implementations/RabbitMQ/MessageReceiverRabbitMQ.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BankMessengers/MyMessenger.java" />
         <option value="$PROJECT_DIR$/src/main/java/main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BankMessengers/MyMessenger.java" />
         <option value="$PROJECT_DIR$/src/main/java/implementations/RabbitMQ/MessageSenderRabbitMQ.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BankMessengers/MessengerProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BankMessengers/RaboMessenger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BankMessengers/UserMessenger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RaboStarter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UserStarter.java" />
       </list>
     </option>
   </component>
@@ -279,22 +279,6 @@
               <item name="dpi" type="b2602c69:ProjectViewProjectNode" />
               <item name="dpi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dpi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dpi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dpi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dpi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -307,7 +291,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550657220408" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550660404046" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -333,37 +317,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RaboMessenger">
-    <configuration name="RaboMessenger" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BankMessengers.RaboMessenger" />
+  <component name="RunManager" selected="Application.RaboStarter">
+    <configuration name="RaboStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RaboStarter" />
       <module name="dpi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BankMessengers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMessenger" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BankMessengers.UserMessenger" />
+    <configuration name="UserStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UserStarter" />
       <module name="dpi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BankMessengers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="dpi" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RaboMessenger" />
-      <item itemvalue="Application.UserMessenger" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.RaboStarter" />
+      <item itemvalue="Application.UserStarter" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RaboStarter" />
+        <item itemvalue="Application.UserStarter" />
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -379,12 +366,12 @@
       <workItem from="1550054031532" duration="67000" />
       <workItem from="1550576293889" duration="4306000" />
       <workItem from="1550648447790" duration="16000" />
-      <workItem from="1550648599003" duration="7137000" />
+      <workItem from="1550648599003" duration="8840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16486000" />
+    <option name="totallyTimeSpent" value="18189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -406,7 +393,7 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.398017" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.24787535" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -448,16 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/TextFlipper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,24 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BankMessengers/MMP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BankMessengers/UserMessenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IMessageConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -594,16 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BankMessengers/MyMessenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IMessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -618,28 +567,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/TextFlipper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BankMessengers/RaboMessenger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BankMessengers/MyMessenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
           <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/implementations/RabbitMQ/MessageSenderRabbitMQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="44" column="75" selection-start-line="44" selection-start-column="75" selection-end-line="44" selection-end-column="75" />
+        <state relative-caret-position="221">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BankMessengers/MessengerProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BankMessengers/RaboMessenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BankMessengers/UserMessenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RaboStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UserStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

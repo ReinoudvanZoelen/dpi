@@ -9,7 +9,7 @@ import interfaces.IMessageSender;
 
 import java.util.Scanner;
 
-public class MyMessenger {
+public abstract class MyMessenger {
     final String ReceiverQueueName;
     final String SenderQueueName;
 

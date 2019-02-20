@@ -1,6 +1,6 @@
 package BankMessengers;
 
-public class MMP {
+public class MessengerProperties {
     public static final String UserQueueName = "user";
     public static final String RaboQueueName = "rabo";
     public static final String AbnQueueName = "abn";

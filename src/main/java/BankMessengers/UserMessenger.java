@@ -1,7 +1,8 @@
 package BankMessengers;
 
-public class UserMessenger {
-    public static void main(String[] args) {
-        new MyMessenger(MMP.UserQueueName, MMP.RaboQueueName);
+public class UserMessenger extends MyMessenger {
+
+    public UserMessenger(String TargetBankName) {
+        super(MessengerProperties.UserQueueName, TargetBankName);
     }
 }
